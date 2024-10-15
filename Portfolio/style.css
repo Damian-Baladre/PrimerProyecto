@@ -1,0 +1,220 @@
+:root{
+    --textoPrimario: 50px;
+    --textoSecundario: 20px;
+    --textoParrafo: 15px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: kanit;
+    text-decoration: none;
+    
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #102838;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#navBar{
+    width: 60rem;
+    height: 5rem;
+    background-color: #dfc399;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    gap: 32;
+    float: top;
+}
+.logo{
+    padding: 8px 15px;
+    width: 8rem;
+    display: flex;
+    position: relative;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 100%;
+    position: absolute;
+
+}
+ul{
+    width: 600px;
+    padding: 10px 20px;
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    justify-content: space-between;
+    font-style:  thin;
+    font-size: 22px;
+    font-weight: 200;
+    color:#386380;
+    text-align: center;
+}
+li{
+    padding: 15px 25px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+.download{
+    background-color: #dfc399;
+    padding: 8px 15px;
+    border: solid 2px #386380;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #386380;
+    box-shadow: 5px 5px #386380;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+#presentation{
+    width: 70rem;
+    padding-top: 12rem;
+    padding-bottom: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+small{
+    font-size: var(--textoSecundario);
+    font-weight: 200;
+    padding-bottom: 0.5rem0.1rem;
+    text-align: center;
+    color: #dfc399;
+}
+h1{
+    font-size: var(--textoPrimario);
+    font-weight: 500;
+    color: #dfc399;
+    text-align: center;
+}
+h2{
+    font-size: var(--textoSecundario);
+    font-weight: 200;
+    color: #dfc399;
+    text-align: center;
+}
+h3{
+    font-size: var(--textoSecundario);
+    font-weight: 200;
+    color: #dfc399;
+    text-align: left;
+}
+.contactList{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.botonContact{
+    background-color: #dfc399;
+    padding: 3px 9px;
+    border: solid 2px #386380;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 200;
+    color: #386380;
+    box-shadow: 5px 5px #386380;
+}
+.experiencies{
+    width: 70rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+.listTitle{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 80%;
+    letter-spacing: 25px;
+    color: #dfc399;
+}
+.texto{
+    padding: 3rem 10rem;
+    display: flex;
+    text-align: center;
+    font-weight: 200;
+    font-size: 15px;
+    color: #dfc399;
+}
+
+.projects{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.projectsTitle{
+    width: 100%;
+    padding: ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 80%;
+    letter-spacing: 25px;
+    color: #dfc399;
+}
+.proyectSection{
+    width: 65rem;
+    height: 15rem;
+    background-color: #386380;
+    border: solid 2px #dfc399;
+    border-radius: 15px;
+    padding: 1rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.imagenLink{
+    width: 400px;
+    height: 12rem;
+    border: solid 2p black;
+    background-color: none;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.imagenProyects{
+    position: absolute;
+    
+}
+.texto1{
+    padding: 3rem 10rem;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-weight: 200;
+    font-size: 15px;
+    color: #dfc399;
+
+}
+
