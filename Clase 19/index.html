@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 2 - Refactorización</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Refactorización: TODO List</h1>
+    <div class="form">
+      <input
+        class="input"
+        type="text"
+        id="taskInput"
+        placeholder="Ingresa una Tarea"
+      />
+      <button class="button" id="addTaskButton">Agregar Tarea</button>
+      <button class="button" id="deleteStorage">❌</button>
+    </div>
+
+    <div class="board">
+      <ul id="taskList">
+        <h4>Pendientes</h4>
+      </ul>
+      <ul id="taskListCompleted">
+        <h4>Completadas</h4>
+      </ul>
+      <ul id="taskListDeleted">
+        <h4>Eliminadas</h4>
+      </ul>
+    </div>
+
+    <script src="function.js"></script>
+  </body>
+</html>
