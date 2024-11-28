@@ -16,14 +16,16 @@ document.addEventListener ('keydown', (e) =>{
             if(key=== "Enter"){
                 equalContent();
             }
-            if(key === "Escape"){
+            else if(key === "Escape"){
                 trashContent()
             }
-            if( key === "Backspace"){
+            else if( key === "Backspace"){
                 deleteContent();
+            } else{
+                input.value += key
             }
         }
-     })
+     });
 })
 btnTrash.addEventListener('click', () =>  {
     trashContent();

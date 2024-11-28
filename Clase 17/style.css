@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {background-color: darkslategray;}
+#input{
+    width: calc(100% - 16px);
+    margin-inline: 8px;
+    margin-top: 8px;
+    padding: 0.5rem;
+    border-radius: 8px;
+    background-color: rgb(68, 108, 108);
+    border: none;
+    color: aliceblue;
+}
+#suggestion{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-inline: 8px;
+    padding-top: 8px;
+}
+.item{
+    display: block;
+    padding: 1rem;
+    width: 100%;
+    color: antiquewhite;
+    background-color: rgb(76, 103, 103);
+}
